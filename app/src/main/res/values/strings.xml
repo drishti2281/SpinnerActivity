@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Spinner Activity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Setting</string>
+    <string name="get_spinner_values">Get Spinner Values</string>
+
+    <string-array name="spinner_items">
+        <item name="O7_Services">O7 Services</item>
+        <item name="O7_Solutions">O7 Solutions</item>
+        <item name="O7_Technowledge">O7 Technowledge</item>
+    </string-array>
+</resources>
