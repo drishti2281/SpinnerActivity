@@ -17,8 +17,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         navController = findNavController(R.id.navController)
-
-        appBarConfiguration = AppBarConfiguration(navController.graph)
+//        appBarConfiguration = AppBarConfiguration(navController.graph)
         appBarConfiguration = AppBarConfiguration(setOf(R.id.firstFragment, R.id.secondFragment))
         setupActionBarWithNavController(navController, appBarConfiguration )
         binding.bottomNavigation.setOnItemSelectedListener {
